@@ -1,0 +1,13 @@
+#+title: Ox-Publish TailwindCSS Template
+
+This repo is a template for using TailwindCSS with your ox-publish projects.
+
+* Installation
+To use this repo with your own project, simply clone the repository and replace the remote with your own:
+#+begin_src bash
+git clone https://github.com/jhilker1/ox-publish-tailwind-template.git path/to/your/project  # add the path to your project 
+cd path/to/your/project
+rm -rf .git
+git init .
+git remote add origin yourgitremote
+#+end_src
